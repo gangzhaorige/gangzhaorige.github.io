@@ -70,12 +70,12 @@ body{
 .circle{
     width:200px;
     height: 200px;
-    float:left;
-    background-image: url("/img/myPhoto.png");
+    float: left;
+    background-image: url("/img/pic.png");
     background-repeat:no-repeat;
     border-radius: 50%;
     shape-outside: circle();
-    margin: 60px 30px 30px 0px;
+    margin: 55px 30px 30px 0px;
 }
 p{
     margin: 0;
@@ -94,6 +94,18 @@ p{
     font-size: 50px;
     position: absolute;
     padding: 0%;
+}
+
+#next a{
+    margin : 0;
+    padding: 0;
+    float: right;
+}
+
+#left a{
+    margin : 0;
+    padding: 0;
+    float: right;
 }
 
 

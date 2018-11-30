@@ -3,7 +3,7 @@ body{
     padding: 0;
     position: relative;
     background-repeat:no-repeat;
-    background-size:100% 100vh;
+    background-size:100% 100%;
     background-attachment: fixed;
     color: white;
 }
@@ -96,21 +96,7 @@ p{
     padding: 0%;
 }
 
-.twitter-bird {
-    background-image: url(twitter-bird-sprite.png);
-    display: inline-block;
-    height: 150px;
-    width: 150px;
-}
 
-.twitter-bird:hover {
-    animation: fly 0.2s steps(3) 0 infinite;
-}
-
-@keyframes fly {
-    from { background-position: 0 0; }
-    to { background-position: -450px 0; }
-}
 
 
 

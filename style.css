@@ -3,6 +3,8 @@ body{
     padding: 0;
     position: relative;
     background-repeat:no-repeat;
+    background-size:100% 100vh;
+    background-attachment: fixed;
     color: white;
 }
 
@@ -62,6 +64,7 @@ body{
 .container{
     background-color: transparent;
     height: 90%;
+    padding-top: 25px;
 }
 
 .circle{
@@ -79,12 +82,34 @@ p{
     padding: 0;
     text-align: justify;
     line-height:  22px;
-    font-size: 20px;
+    font-size: 23px;
 }
-h1{
+.container h1{
     margin: 0 0 20px;
     padding: 0;
-    font-size: 30;
+    font-size: 45px;
+}
+
+.midHead{
+    font-size: 50px;
+    position: absolute;
+    padding: 0%;
+}
+
+.twitter-bird {
+    background-image: url(twitter-bird-sprite.png);
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+
+.twitter-bird:hover {
+    animation: fly 0.2s steps(3) 0 infinite;
+}
+
+@keyframes fly {
+    from { background-position: 0 0; }
+    to { background-position: -450px 0; }
 }
 
 
